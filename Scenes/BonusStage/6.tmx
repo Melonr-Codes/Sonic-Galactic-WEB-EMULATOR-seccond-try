@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2019.07.31" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="72" height="72" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="303">
+ <tileset firstgid="1" source="../../../Tiled Object Templates/Images/Ring.tsx"/>
+ <tileset firstgid="2" source="BonusTiles.tsx"/>
+ <layer id="3" name="Layer 1" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt2ddtwzAAhGElThkhdYTUEVJHSB0hzRvYQyT75ghRgO4e+G7wJ3CgDrYf9JkWZGoYGAgggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAr0KbOvEF8pOze5sLsd7yr7S6zjQiR8qRzXHs7kcnyinSq/jTCd+rlxELtVLrpRrpdeRPr9bw/Cn4DOuCHzavwx88GkLtF+90cu3yl0N1x/34vflHtnwSRHv+LhHNnxSxDs+7pENnxTxjo97ZMMnRbzj4x7ZuH9OEe+5flba21gr93pbyYPy6B/pquX6mfbJ8BmXwZOmZ+Wl5nU2l+M35V3pdXzoxD+Vr5rv2VyOf5SlwkAAgc0R4Llb+7viuVvbJ++7pvsKniuNbunDvrevJ3zcIxs+KeIdH/fIlv/7uP64EOvHPbLhkyLe8XGPbHn9me4P2Xcapdh3yhXjfRP2nf4BSAJabw==
+  </data>
+ </layer>
+ <layer id="6" name="Layer 2" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20KP4hAYcCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBj4DgxRAAAB
+  </data>
+ </layer>
+ <layer id="7" name="Layer 3" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0McNAjAQRUFKJ5ZALIFYArEEYgnEGvgFWJyRPCs9rbQnexoNQ4AAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQOA/BJp5Riu1U6ewu7n1Uq3Tz8cHaZhGhT3ObZJqnWk+PkvztCjsZW6rVOus8/FN2qZdYe9zO6Ra55iPn9I5XQr7mtst1Tr3fPyRnulV2O/cPskQIECAAAECBAgQIECAAAECBH4JfAH0yCrl
+  </data>
+ </layer>
+ <layer id="12" name="Layer 4" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0NtNAkAQBVBKR9QSwEcJPqAERCwBUEtQ1Bq4BezHhOz+mDPJzSaTyUz2TCaKAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAEC/0dgmq9cJLPksvFepXedVGuawZ77qndHzc2zeJHcJLeN9y69+6RavfdV746ae8jix+QpeW68y/RWSbV676veHTW3zuKXZJO8Nt5tem9JtXrvq94dNbfL4n1ySN4b70d6n0m1eu+r3h0195XF38kx+Wm8v+n9JdXqva961xwBAgQIECBAgAABAgQIECBAgAABAgQInC9wAjnsVck=
+  </data>
+ </layer>
+ <layer id="13" name="Layer 5" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0MtNAkAQBmBKR9QSQKUEH1ACIpYAPkpQ1Br4jxz2MIfdk98kfzY7mcwk32SiCBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAgXOBaT4XySy5bLxX6V0n1ZpmsOe+6t1Rc/MsXiQ3yW3jvUtvmVSr977q3VFz91n8kDwmT413ld46qVbvfdW7o+Y2WfycbJOXxrtL7zWpVu991buj5vZZfEjekvfG+5HeZ1Kt3vuqd0fNfWXxd3JMfhrvb3p/SbV676veNUeAAAECBAgQIECAAAECBAgQIECAAAECBAgQIEDgvwqcAEM8Vck=
+  </data>
+ </layer>
+ <layer id="16" name="Layer 6" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt2DFOwzAYxXGXCxTuADuMsMNIDwHHKBNcACZ6FljgBHRpT1AWOAFl4H1KP6uxmka1WFz/Iz05VlQp+uXFdRsCBwIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIlCjwMgjhVXlT3hWOtsCHTKbKTJnjE3G8NwuZfCqnunIWr3LivfmRzVK5FMkVLCHtjdn84hObkfbm8CCEI6X2/nT1hv401enqTe396etN7f3p601uf8Za0++Ue+VBKXXu+xvviY/2nWUxHxt3XZ8f9Zkn5VmZKKXOfX/jLuaRJsen9N74/bvL+vgfPqX3xu/fLGx/4z6pjc1z+jPWO7UP689w9T65j42bjGpdf47lc7Iysh55n9aNcvoTN+SFn5zL5ELZ1CNzyX2/CmeJt38tm5GyrUc1//66kc2t0tejXdef+AD25KSvR7X7+GPu6hE+jVBXj/DxBjVj2iP+f277pD2iP20fn3mPvrQX+lY42gLeo6A9wEDhQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQRKFPgDzWUQPA==
+  </data>
+ </layer>
+ <layer id="15" name="Layer 7" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0NtNAkAQBVBKR9QSwEcJPqAERCwBUEtQ1Bq4BezHkOz+mDPJzSaT2ZnkTCaKAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBM4VmObDRTJLLhvvVXrXSbWmGey5r3p31Nw8ixfJTXLbeO/Su0+q1Xtf9e6ouYcsfkyekufGu0xvlVSr977q3VFz6yx+STbJa+PdpveWVKv3vurdUXO7LN4nh+S98X6k95lUq/e+6t1Rc19Z/J0ck5/G+5veX1Kt3vuqd80RIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIEDgPwqcAK20Vck=
+  </data>
+ </layer>
+ <layer id="14" name="Layer 8" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt0NtNAkAQBVBKR9QSwEcJPqAERCwBUEtQ1Bq4BezHJOz+mDPJzSaTyUz2TCaKAAECBAgQIECAAAECBAgQIECAAAECBAgQ+A8C03ziIpkll433Kr3rpFrTDPbcV707am6exYvkJrltvHfp3SfV6r2venfU3EMWPyZPyXPjXaa3SqrVe1/17qi5dRa/JJvktfFu03tLqtV7X/XuqLldFu+TQ/LeeD/S+0yq1Xtf9e6oua8s/k6OyU/j/U3vL6lW733Vu+YIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQInCtwAubvVck=
+  </data>
+ </layer>
+ <layer id="17" name="Layer 9" width="72" height="72">
+  <data encoding="base64" compression="zlib">
+   eAHt2NkJwkAURuG4l+BagmsJriW4luDagRah/foPjpB7H/Ik+DBn4DC5qEg+EpFk2f9WWV9dUdVYLbeH47pqqFRXUyfeUu1YJ7eH467qqVRXXyc+UEPXSHNorCYq1eV9nqUseyl8PlcEPsV3Bj74FAsUvzrVyzM1j/H7Y724v6yHn/DxInbGx3r4CR8vYmd8rIef8PEidsbHevgJHy9iZ3ysh5/4/+xF7Oyvn7uebTzUQm8LLdXKfiSpyV8/3+dk+Hwug7W2jdrGdrk9HO/VQaW6jjrxkzrHLrk9HF/VTbEQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAIFfCrwBTqc38w==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Player and managers">
+  <object id="112" name="BonusSetup" x="16" y="16">
+   <properties>
+    <property name="Palette" type="int" value="6"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="BonusPlayer" x="576" y="1088">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="WindowManager" x="64" y="16">
+   <point/>
+  </object>
+  <object id="109" name="InputManager" x="112" y="16">
+   <point/>
+  </object>
+  <object id="110" name="PauseManager" x="160" y="16">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="General objects">
+  <object id="146" name="BonusItem" x="576" y="720">
+   <properties>
+    <property name="Type" type="int" value="0"/>
+    <property name="Z" type="float" value="64"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="194" name="BonusRing" gid="1" x="720" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="197" name="BonusRing" gid="1" x="784" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="198" name="BonusRing" gid="1" x="752" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="199" name="BonusRing" gid="1" x="688" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="223" name="BonusRing" gid="1" x="560" y="592" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="224" name="BonusRing" gid="1" x="624" y="592" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="225" name="BonusRing" gid="1" x="592" y="592" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="226" name="BonusRing" gid="1" x="528" y="592" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="230" name="BonusItem" x="576" y="80">
+   <properties>
+    <property name="Type" type="int" value="2"/>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="231" name="BonusItem" x="256" y="464">
+   <properties>
+    <property name="Type" type="int" value="1"/>
+    <property name="Z" type="float" value="96"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="234" name="BonusRing" gid="1" x="560" y="192" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="235" name="BonusRing" gid="1" x="592" y="192" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="236" name="BonusRing" gid="1" x="560" y="224" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="237" name="BonusRing" gid="1" x="592" y="224" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="238" name="BonusRing" gid="1" x="592" y="160" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="239" name="BonusRing" gid="1" x="560" y="160" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="240" name="BonusRing" gid="1" x="560" y="288" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="241" name="BonusRing" gid="1" x="592" y="288" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="242" name="BonusRing" gid="1" x="560" y="320" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="243" name="BonusRing" gid="1" x="592" y="320" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="244" name="BonusRing" gid="1" x="592" y="256" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="245" name="BonusRing" gid="1" x="560" y="256" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="246" name="BonusRing" gid="1" x="64" y="672" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="247" name="BonusRing" gid="1" x="128" y="672" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="248" name="BonusRing" gid="1" x="64" y="704" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="249" name="BonusRing" gid="1" x="128" y="704" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="250" name="BonusRing" gid="1" x="128" y="640" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="251" name="BonusRing" gid="1" x="64" y="640" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="252" name="BonusRing" gid="1" x="64" y="768" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="253" name="BonusRing" gid="1" x="128" y="768" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="254" name="BonusRing" gid="1" x="64" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="255" name="BonusRing" gid="1" x="128" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="256" name="BonusRing" gid="1" x="128" y="736" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="257" name="BonusRing" gid="1" x="64" y="736" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="280" name="BonusItem" x="992" y="592">
+   <properties>
+    <property name="Type" type="int" value="4"/>
+    <property name="Z" type="float" value="115"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="281" name="BonusRing" gid="1" x="960" y="640" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="110"/>
+   </properties>
+  </object>
+  <object id="282" name="BonusRing" gid="1" x="928" y="704" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="283" name="BonusRing" gid="1" x="944" y="672" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="100"/>
+   </properties>
+  </object>
+  <object id="284" name="BonusRing" gid="1" x="976" y="608" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="115"/>
+   </properties>
+  </object>
+  <object id="286" name="BonusRing" gid="1" x="944" y="496" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="100"/>
+   </properties>
+  </object>
+  <object id="287" name="BonusRing" gid="1" x="976" y="560" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="115"/>
+   </properties>
+  </object>
+  <object id="288" name="BonusRing" gid="1" x="960" y="528" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="110"/>
+   </properties>
+  </object>
+  <object id="289" name="BonusRing" gid="1" x="928" y="464" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="290" name="BonusRing" gid="1" x="400" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="291" name="BonusRing" gid="1" x="464" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="292" name="BonusRing" gid="1" x="432" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="293" name="BonusRing" gid="1" x="368" y="800" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+  </object>
+  <object id="294" name="BonusRing" gid="1" x="720" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="295" name="BonusRing" gid="1" x="784" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="296" name="BonusRing" gid="1" x="752" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="297" name="BonusRing" gid="1" x="688" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="298" name="BonusRing" gid="1" x="400" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="299" name="BonusRing" gid="1" x="464" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="300" name="BonusRing" gid="1" x="432" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="301" name="BonusRing" gid="1" x="368" y="384" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="112"/>
+   </properties>
+  </object>
+  <object id="302" name="BonusGoal" x="736" y="1088">
+   <properties>
+    <property name="Z" type="float" value="120"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Fences">
+  <object id="274" name="BonusFence" x="496" y="928" width="160" height="224">
+   <properties>
+    <property name="Down" type="bool" value="true"/>
+    <property name="Left" type="bool" value="true"/>
+    <property name="Right" type="bool" value="true"/>
+    <property name="Up" type="bool" value="false"/>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="275" name="BonusFence" x="16" y="544" width="160" height="352">
+   <properties>
+    <property name="Down" type="bool" value="true"/>
+    <property name="Left" type="bool" value="true"/>
+    <property name="Right" type="bool" value="false"/>
+    <property name="Up" type="bool" value="true"/>
+    <property name="Z" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="277" name="BonusFence" x="496" y="0" width="160" height="352">
+   <properties>
+    <property name="Down" type="bool" value="false"/>
+    <property name="Left" type="bool" value="true"/>
+    <property name="Right" type="bool" value="true"/>
+    <property name="Up" type="bool" value="true"/>
+    <property name="Z" type="float" value="128"/>
+   </properties>
+  </object>
+  <object id="278" name="BonusFence" x="336" y="544" width="160" height="96">
+   <properties>
+    <property name="Down" type="bool" value="true"/>
+    <property name="Left" type="bool" value="false"/>
+    <property name="Right" type="bool" value="false"/>
+    <property name="Up" type="bool" value="true"/>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="279" name="BonusFence" x="656" y="544" width="160" height="96">
+   <properties>
+    <property name="Down" type="bool" value="true"/>
+    <property name="Left" type="bool" value="false"/>
+    <property name="Right" type="bool" value="false"/>
+    <property name="Up" type="bool" value="true"/>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

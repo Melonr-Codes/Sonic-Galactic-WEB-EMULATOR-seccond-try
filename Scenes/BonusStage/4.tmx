@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2019.07.31" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="88" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="221">
+ <tileset firstgid="1" source="../../../Tiled Object Templates/Images/Ring.tsx"/>
+ <tileset firstgid="2" source="BonusTiles.tsx"/>
+ <layer id="3" name="Layer 1" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHt19ttAjEQhWEThSJIDQSSEkiAGtJEauRSQwI1JKQG4PBgyW/rGUvGsX5LR0JiZ9fzvYwmBA4CCCCAAAIIIIAAAggggAACCCCAwD0ENqMQtspO2Su5x1uX+/5envuS6bdyUI4GX29dL265ffzI9Fc5KX8GX29d7r16ee4s08vN9SGEkZJ7vHW57+c5BLwCcXY96gXjJNYZ6P1+73Vxdk3U6FMS6wzs3cnb31SFz8pMmSd50e9XhVMmsFD5m/KuLJOs9HutcMoE8C3zG6rGd0io7P+4O3zoNWmsO0jZLfqtjrvDp1pMY91B+hWis1YE4i5h3R28da30XesecZew7g7eulp9tfKdOMuss8tb10rfte4RZ5l1dnnravXFdxBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBD4zwJXOT5HtQ==
+  </data>
+ </layer>
+ <layer id="6" name="Layer 2" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHt1FsOAUEQheEJwRIIluCyBtclECyBYP9Pcyqmko60MQnaQ/+VnMyt6PSXShcFhQACCCCAAAIIIIAAAggggAACCCCAAAII/EegpWXbSidhulqrp+RQfW1yoAwTZqS1xkoONdEmp8o8YTZaa6vkUAttcqmY70pZV1e7j2Wm9xbvtf7wt7FnexcG34eHWz5f3d3M7JvP/rtn67N+fOOza65uzfwKo0G9Oh98Ft0zvDK/DWCrFvcNz8df33M+cP42n9D6Tua33ufTrzv9wV45JMxRa52UHOqsTV6Ua8LctNZdoRBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAgW8IlBqDVb4=
+  </data>
+ </layer>
+ <layer id="10" name="Layer 3" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHtmrdOBDEQhvdooCHW0BBraMiU0By5hIbME5B5NkLFAxAq6AkV9MB/Qm4se+eQPbvj1Vj6Zda+8+CPT8JaOcvKbe0o34F0Il2OvhtjPUhoo+r46lPjd7XQ34z3+/1YfgAZRIYc/TDGRpDQRtXx1afGn8H3RTDjcYCbQCaRKUc/jbEZJLRRdXz1qfFPsP1CpHpcB7hFZAlZdvQrGFtFQhtVx1efGm9tybI2RKrHlFfS/TV+S/WY8kq6v8ZvqR5XxV+pHlfFX6keS/F3Fv9A55AdZDdCv4c19pGymxR/1wBiHTlBTiP0Z1jjHCm7SfE31jmlbJ52fSn+xjqn2Psr+1n95f0LqL+8fNVfXr4p+HuF9zfXyA1yi9iNmrc/X+RzCv7eg+kD8og8OfhS80XytGul4O8rmL4h78iHgy81b++5yOcU/P0G058GV7yHrCF2o+btzxf5nIK/RfKIXSsFf2Pvucj11F9e2uovL98U/KXOt9Q8L8H81VPwlzrfUvP5BHhnU/CXOt9S87wE81dPwV/qfEvN5xPgnU3BX14CvKun4C8vAd7V1V9evuovL1/1l5evFH8PsM1DhLrv2+x8rHvLofSl+HuBjVwi1H3fZudj3VsO5SvFX3N/LLTvxfvhPmQeWXC8Kw7l9d/vS/HX3B8L7UfBdAzZQDYF8K2Kv9K8NZ5XxV9p3hq+qfsr1VvDN3V/pXpr+G7hh23Ed+821j1aqo6vPjUu5ZxgeNr9EQaOEd+921j3aKk6vvrUeOOcoE0JKAEloASUgBJQAkpACSiBPwK/hs91ZA==
+  </data>
+ </layer>
+ <layer id="7" name="Layer 4" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHt2MkNAyEMhWEm/d/SRLrIUkOWGrLUkMRSbpaAN5aIBPwj+TLYA3xzwCIlHgQQQAABBBBAYFyB/ZLSweJocbLIPWpern7W92czvVhcLW4W20z4vFm91u77bp4Pi6fFy2KXCZ+3dp5Z89/m+bFIm5QWi9yj5uXqeY8AAghEBehPonJaHf2J5hTNoj+Jyml19CeaE1kIIDCOgNoXqXklmeg3onWltfxrzPdFLe93/FzqHqN16vdb5vm+qOX9jp9L3Ve0Tv1+yzy1L1LzSmuNfiNaV1oLYwgggAACP4Gee7Ae/mHPPVgPvj33YD340oP18JdY42wC6rmt5s3mV9uvP7db3u/U1jLiuD+3W97vjOhX25N6bqt5tfkYRwABBBBAAAEEEEAAAQQQQAABBBBAAIG2Al8HXY7/
+  </data>
+ </layer>
+ <layer id="11" name="Layer 5" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEBAAAAwqD1T20Hb4hAYcCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAgW9gRMAAAQ==
+  </data>
+ </layer>
+ <layer id="12" name="Layer 6" width="88" height="50">
+  <data encoding="base64" compression="zlib">
+   eAHt1rdOBEEQRVGEDTEJNsQk2BCTYENMBh8B/x9yS6Mn9bQGpI2Q0G3pbdV2TwecrV0xN+dSQAEFFFBAAQUUUEABBRRQQAEFFFBAAQUUUEABBRRQQAEFFFBAAQUUUEABBRRQQAEFFFBAAQUUUEABBRRQQAEFFPhvAvP8QQtksckSfaXd6/uct7X6ZbJCXIPAJmWLbDfZoa+0e32f87ZWv0v2iGsQOKackNMmZ/SVdm+qb59Lf869C+IaBH7zveeRPuWcvQf6fA76Dp796y0bdyRmVcutkj5n2Wv3M9flW+eP5Im4BoGp+Y3ZVI1tzup9+jL292E8WVPzW175vqdmhlP7Z+Lu/I59L/kH7YqskjWSWUzN9z7Ofc1vyTp3N8g1uSGuQeAZixeyTw5I5jM1fj/VzO0hd4/IK3kjrrFA5vid7VnzwR3nduzZv8scf3Iwa76485dz+w2nEDCh
+  </data>
+ </layer>
+ <objectgroup id="8" name="Player and managers">
+  <object id="112" name="BonusSetup" x="80" y="16">
+   <properties>
+    <property name="Palette" type="int" value="4"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="BonusPlayer" x="800" y="768">
+   <properties>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="WindowManager" x="128" y="16">
+   <point/>
+  </object>
+  <object id="109" name="InputManager" x="176" y="16">
+   <point/>
+  </object>
+  <object id="110" name="PauseManager" x="224" y="16">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="General objects">
+  <object id="30" template="../../../Tiled Object Templates/Ring.tx" name="BonusRing" x="224" y="336">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+  </object>
+  <object id="31" name="BonusRing" gid="1" x="224" y="336" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="32" name="BonusRing" gid="1" x="256" y="336" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="33" name="BonusRing" gid="1" x="288" y="336" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="34" name="BonusRing" gid="1" x="272" y="320" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="35" name="BonusRing" gid="1" x="240" y="320" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="40" name="BonusRing" gid="1" x="272" y="352" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="41" name="BonusRing" gid="1" x="240" y="352" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="114" name="BonusRing" gid="1" x="784" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="115" name="BonusRing" gid="1" x="720" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="116" name="BonusRing" gid="1" x="816" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="117" name="BonusRing" gid="1" x="752" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="146" name="BonusItem" x="800" y="336">
+   <properties>
+    <property name="Type" type="int" value="0"/>
+    <property name="Z" type="float" value="64"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" name="BonusItem" x="112" y="336">
+   <properties>
+    <property name="Type" type="int" value="2"/>
+    <property name="Z" type="float" value="64"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="151" name="BonusRing" gid="1" x="848" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="152" name="BonusRing" gid="1" x="880" y="128" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="153" name="BonusRing" gid="1" x="784" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="154" name="BonusRing" gid="1" x="720" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="155" name="BonusRing" gid="1" x="816" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="156" name="BonusRing" gid="1" x="752" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="157" name="BonusRing" gid="1" x="848" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="158" name="BonusRing" gid="1" x="880" y="544" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="162" name="BonusRing" gid="1" x="1328" y="272" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="163" name="BonusItem" x="1264" y="336">
+   <properties>
+    <property name="Type" type="int" value="3"/>
+    <property name="Z" type="float" value="48"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="164" name="BonusRing" gid="1" x="1200" y="272" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="165" name="BonusRing" gid="1" x="1200" y="400" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="166" name="BonusRing" gid="1" x="1328" y="400" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="170" name="BonusBumper" x="320" y="272">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="171" name="BonusBumper" x="400" y="336">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="172" name="BonusBumper" x="320" y="400">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="173" name="BonusBumper" x="192" y="272">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="174" name="BonusBumper" x="192" y="400">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="176" name="BonusBumper" x="112" y="336">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="178" name="BonusRing" gid="1" x="1152" y="336" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="179" name="BonusRing" gid="1" x="1376" y="336" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="181" name="BonusRing" gid="1" x="1264" y="224" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="182" name="BonusRing" gid="1" x="1264" y="448" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="48"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="183" name="BonusRing" gid="1" x="16" y="256" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="184" name="BonusRing" gid="1" x="32" y="272" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="185" name="BonusRing" gid="1" x="16" y="416" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="186" name="BonusRing" gid="1" x="32" y="400" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="187" name="BonusRing" gid="1" x="464" y="272" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="188" name="BonusRing" gid="1" x="480" y="256" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="189" name="BonusRing" gid="1" x="464" y="400" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="190" name="BonusRing" gid="1" x="480" y="416" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="16"/>
+    <property name="angle" type="int" value="0"/>
+    <property name="moveType" type="int" value="0"/>
+    <property name="planeFilter" type="int" value="0"/>
+    <property name="speed" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="194" name="BonusRing" gid="1" x="592" y="464" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="199" name="BonusRing" gid="1" x="1008" y="464" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="201" name="BonusRing" gid="1" x="1008" y="496" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="202" name="BonusRing" gid="1" x="1008" y="528" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="203" name="BonusRing" gid="1" x="1008" y="560" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="204" name="BonusRing" gid="1" x="592" y="496" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="205" name="BonusRing" gid="1" x="592" y="528" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="206" name="BonusRing" gid="1" x="592" y="560" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="207" name="BonusRing" gid="1" x="592" y="112" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="208" name="BonusRing" gid="1" x="1008" y="112" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="209" name="BonusRing" gid="1" x="1008" y="144" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="210" name="BonusRing" gid="1" x="1008" y="176" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="211" name="BonusRing" gid="1" x="1008" y="208" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="212" name="BonusRing" gid="1" x="592" y="144" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="213" name="BonusRing" gid="1" x="592" y="176" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="214" name="BonusRing" gid="1" x="592" y="208" width="16" height="16">
+   <properties>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="220" name="BonusGoal" x="800" y="224">
+   <properties>
+    <property name="Z" type="float" value="64"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="Fences">
+  <object id="216" name="BonusFence" x="624" y="624" width="352" height="112">
+   <properties>
+    <property name="Down" type="bool" value="false"/>
+    <property name="Left" type="bool" value="true"/>
+    <property name="Right" type="bool" value="true"/>
+    <property name="Up" type="bool" value="false"/>
+    <property name="Z" type="float" value="80"/>
+   </properties>
+  </object>
+  <object id="218" name="BonusFence" x="1088" y="656" width="192" height="16">
+   <properties>
+    <property name="Down" type="bool" value="true"/>
+    <property name="Left" type="bool" value="false"/>
+    <property name="Right" type="bool" value="false"/>
+    <property name="Up" type="bool" value="false"/>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+  <object id="219" name="BonusFence" x="1088" y="0" width="192" height="16">
+   <properties>
+    <property name="Down" type="bool" value="false"/>
+    <property name="Left" type="bool" value="false"/>
+    <property name="Right" type="bool" value="false"/>
+    <property name="Up" type="bool" value="true"/>
+    <property name="Z" type="float" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

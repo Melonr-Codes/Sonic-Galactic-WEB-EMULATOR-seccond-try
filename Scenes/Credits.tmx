@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2019.07.31" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="8">
+ <tileset firstgid="1" source="Credits16x16.tsx"/>
+ <layer id="3" name="Tile Layer 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eAHt0kENAAAMhDBy/kXPx9IHBkhXTR4wwAADDDDAAAMMMMAAAwww8NrAASPACAE=
+  </data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eAHt1sEKgmAQhdEf1BQyE9QKKg1SCzTr/Z+u7wVm6d04i7O5m9ncGSYKIcRIsEOKDBEU+Z45OQ4ocEQJVV4xq0aDE864QJVfmXXDHS06PKDKn8zqMWDEC2+o8olZMz5Y8MUPqlzVc2u/VD239kvVc2u/VD239kvVc2u/VD239sv77/ff77//P9Z9Xjv3++//j////v9b/8na+db/nz/x4mGB
+  </data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="1" name="WindowManager" x="48" y="-64">
+   <point/>
+  </object>
+  <object id="1" name="InputManager" x="96" y="-64">
+   <point/>
+  </object>
+  <object id="7" name="Credits" x="240" y="80">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

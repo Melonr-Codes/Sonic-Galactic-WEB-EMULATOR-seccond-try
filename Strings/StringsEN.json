@@ -1,0 +1,47 @@
+{
+  "TestString": ["Test String"],
+  "TestChoices": ["OPTION 1", "OPTION 2"],
+  "ConfirmTutorial": ["This is your first time playing Sonic Galactic.",
+            "Would you like to try the tutorial?"],
+  "ConfirmTutorialChoices": ["SURE!", "NO THANKS..."],
+  "AreYouSureTutorial": ["Are you sure that you want to skip the tutorial?",
+              "There are many changes and details you likely don't want to miss!"],
+  "AreYouSureTutorialChoices": ["PLAY THE TUTORIAL!", "I'LL PASS..."],
+  "DeleteSaveData": ["Are you sure you want to delete this save file?",
+            "All progress will be lost!"],
+  "DeleteSaveDataChoices": ["YES", "NO"],
+  "ButtonString": "button",
+  "KeyString": "key",
+  "PauseTipString": "Tip: ",
+  "PauseTipText": [
+    "Hidden rings and items can be uprooted from signposts at the end of the level depending on where it lands.",
+    "Be sure to explore the levels. You never know what secrets you'll find!",
+    "Rolling on slopes will increase your momentum.",
+    "Did you know that the bosses in this game mostly work through a weak spot system? Look out for their weaknesses to do some damage!",
+    "Seek out the Big Rings hidden in stages to enter Special Stages!",
+    "Be sure to take a break if you're feeling tired.",
+    "If you roll while running on a water surface, you'll start skipping like a stone!",
+    "Shield abilities have passive abilities that can affect the environment you're in."
+  ],
+  "PauseCharacterTipText": {
+    "Sonic": [
+      "Sonic can perform a Drop Dash when you hold the jump %s in air.",
+      "Sonic can perform a wall dash if you start a Drop Dash next to walls! He can also jump off of the walls he scales to do a cool flip jump off it.",
+      "As Sonic, the shield abilities can be used with your secondary jump %s. If you prefer it inverted, you can change this in the options menu."
+    ],
+    "Tails": [
+      "Tails is able to cancel his flight if you hold the down %s and press jump at the same time."
+    ],
+    "Knuckles": [
+      "Knuckles carries momentum when he glides. He can also jump out of a slide after landing from a glide to keep momentum going, and he can roll after sliding if he reaches a steep slope incline.",
+      "As Knuckles, if you hold the down %s after dropping from a glide, he can go straight into the crouch state, meaning you can quickly charge a Spin Dash in mere seconds after landing! If this is done over steep slopes, Knuckles will instantly roll."
+    ],
+    "Fang": [
+      "Fang can charge his gun to launch himself high into the air. The longer you hold the jump %s for, the more he charges! The bullet he fires from this can hurt badniks and affect objects it touches."
+    ],
+    "Tunnel": [
+      "Tunnel can dive into the ground and launch out in different directions. He can use this launch to get into walls and ceilings.",
+      "Tunnel's dive can break certain blocks around or under him to access secret paths."
+    ]
+  }
+}

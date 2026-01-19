@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension title="Discord RPC Extension for Hatch Game Engine">
+    <sofiles>
+        <win>discord-rpc.dll</win>
+    </sofiles>
+    <import>
+        <cfunc>Discord_Initialize_EXT</cfunc>
+        <cfunc>Discord_Shutdown</cfunc>
+        <cfunc>Discord_UpdatePresence_EXT</cfunc>
+        <cfunc>Discord_ClearPresence</cfunc>
+    </import>
+    <functions class="Discord">
+        <function label="_INIT">
+            <call what="Discord_Initialize_EXT">
+                <arg type="string" value="623985235150766081"/>
+                <arg type="string" value=""/>
+                <arg type="int" value="1"/>
+            </call>
+            <call what="Discord_Shutdown"></call>
+        </function>
+
+        <function label="UpdatePresence">
+            <param type="string"/> <!-- header -->
+            <param type="string"/> <!-- state -->
+            <param type="string"/> <!-- image_key -->
+
+            <call what="Discord_UpdatePresence_EXT">
+                <arg param="0"/>
+                <arg param="1"/>
+                <arg param="2"/>
+            </call>
+        </function>
+
+        <function label="_DISPOSE">
+            <call what="Discord_ClearPresence"></call>
+            <call what="Discord_Shutdown"></call>
+        </function>
+    </functions>
+    <!--
+    DISCORD_EXPORT void Discord_Initialize_EXT(const char* appID, const char* optionalSteamID, int autoRegister) {
+        Discord_Initialize(appID, NULL, autoRegister, optionalSteamID);
+    }
+
+    DISCORD_EXPORT void Discord_UpdatePresence_EXT(const char* header, const char* state, const char* image_key) {
+        DiscordRichPresence discordPresence;
+        memset(&discordPresence, 0, sizeof(discordPresence));
+
+        discordPresence.details = header;
+        discordPresence.state = state;
+        discordPresence.largeImageKey = image_key;
+        // discordPresence.partyId = 0;
+        // discordPresence.partySize = party_size;
+        // discordPresence.partyMax = party_max;
+        // discordPresence.startTimestamp = start_time;
+        discordPresence.instance = 1;
+        Discord_UpdatePresence(&discordPresence);
+    }
+    -->
+</extension>

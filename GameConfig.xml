@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameconfig>
+    <name>Sonic Galactic</name>
+    <description>A brand new 2D Sonic experience</description>
+    <version>
+        <major>0</major>
+        <minor>2</minor>
+        <patch>1</patch>
+        <isDemo>true</isDemo>
+    </version>
+    <engine>
+        <loadAllClasses>false</loadAllClasses>
+        <useSoftwareRenderer>true</useSoftwareRenderer>
+        <enablePaletteUsage>true</enablePaletteUsage>
+    </engine>
+    <savefile>savedata.sav</savefile>
+    <audio volume="50">
+        <music volume="85"></music>
+        <sound volume="100"></sound>
+    </audio>
+    <display>
+        <width>424</width>
+        <height>240</height>
+        <scale>2</scale>
+    </display>
+    <keys>
+        <fullscreen>F4</fullscreen>
+        <devRestartApp>F1</devRestartApp>
+        <devPerfSnapshot>F3</devPerfSnapshot>
+        <devLogLayerInfo>F2</devLogLayerInfo>
+        <devRecompile>F5</devRecompile>
+        <devRestartScene>F6</devRestartScene>
+        <devFastForward>BACKSPACE</devFastForward>
+        <devShowTileCol>F7</devShowTileCol>
+        <devShowObjectRegions>F8</devShowObjectRegions>
+        <devToggleFrameStepper>F9</devToggleFrameStepper>
+        <devStepFrame>F10</devStepFrame>
+        <devQuit>ESCAPE</devQuit>
+    </keys>
+    <controls>
+        <player id="1">
+            <keyboard>
+                <up>UP</up>
+                <down>DOWN</down>
+                <left>LEFT</left>
+                <right>RIGHT</right>
+                <accept>A</accept>
+                <decline>S</decline>
+                <extra1>D</extra1>
+                <extra2>F</extra2>
+                <pause>RETURN</pause>
+            </keyboard>
+            <controller>
+                <up>DPAD_UP</up>
+                <down>DPAD_DOWN</down>
+                <left>DPAD_LEFT</left>
+                <right>DPAD_RIGHT</right>
+                <accept>A</accept>
+                <decline>B</decline>
+                <extra1>X</extra1>
+                <extra2>Y</extra2>
+                <pause>START</pause>
+                <deadzone>0.5</deadzone>
+                <rumble>true</rumble>
+            </controller>
+        </player>
+        <player id="2">
+            <controller>
+                <up>DPAD_UP</up>
+                <down>DPAD_DOWN</down>
+                <left>DPAD_LEFT</left>
+                <right>DPAD_RIGHT</right>
+                <accept>A</accept>
+                <decline>B</decline>
+                <extra1>X</extra1>
+                <extra2>Y</extra2>
+                <pause>START</pause>
+                <deadzone>0.5</deadzone>
+                <rumble>true</rumble>
+            </controller>
+        </player>
+        <player id="3">
+            <controller>
+                <up>DPAD_UP</up>
+                <down>DPAD_DOWN</down>
+                <left>DPAD_LEFT</left>
+                <right>DPAD_RIGHT</right>
+                <accept>A</accept>
+                <decline>B</decline>
+                <extra1>X</extra1>
+                <extra2>Y</extra2>
+                <pause>START</pause>
+                <deadzone>0.5</deadzone>
+                <rumble>true</rumble>
+            </controller>
+        </player>
+        <player id="4">
+            <controller>
+                <up>DPAD_UP</up>
+                <down>DPAD_DOWN</down>
+                <left>DPAD_LEFT</left>
+                <right>DPAD_RIGHT</right>
+                <accept>A</accept>
+                <decline>B</decline>
+                <extra1>X</extra1>
+                <extra2>Y</extra2>
+                <pause>START</pause>
+                <deadzone>0.5</deadzone>
+                <rumble>true</rumble>
+            </controller>
+        </player>
+    </controls>
+    <startscene>Scenes/SEGA.tmx</startscene>
+</gameconfig>
